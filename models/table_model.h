@@ -1,6 +1,3 @@
-#ifndef TABLE_MODEL_H
-#define TABLE_MODEL_H
-
 #include <QAbstractTableModel>
 #include <QTableView>
 
@@ -25,4 +22,3 @@ class StringListModel : public QAbstractListModel
  private:
      QStringList stringList;
  };
-#endif
